@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Sep 24 22:56:46 2026 
+Best design point: 1
+Design specs: 
+	BG_circuit:band_gap:1	corner	C0 - 
+Design parameters: 
+	x		6.5
+
+Interactive.53
+Number of points completed: 5
+Number of simulation errors: 0
+Interactive.53 completed. 
+Current time: Thu Sep 24 22:56:53 2026 

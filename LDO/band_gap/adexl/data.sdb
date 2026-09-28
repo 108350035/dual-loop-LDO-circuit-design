@@ -1,0 +1,1617 @@
+<?xml version="1.0"?>
+<setupdb version="6">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="0">_default</corner>
+			<corner enabled="1">C0
+				<models>
+					<model enabled="1">toplevel.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/tsmcN28_CLN28HPC/models/spectre/toplevel.scs</modelfile>
+						<modelsection>"top_tt"</modelsection>
+					</model>
+				</models>
+			</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottingmode
+				<value>Append</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>distributedplot_enabled
+				<value>no</value>
+			</plottingoption>
+		</plottingoptions>
+		<tests>
+			<test enabled="1">BG_circuit:band_gap:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>band_gap</value>
+					</option>
+					<option>lib
+						<value>BG_circuit</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>BG_circuit:band_gap:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>band_gap</value>
+					</option>
+					<option>lib
+						<value>BG_circuit</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>state1</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var enabled="0">vdd
+				<value>1.8</value>
+				<dependentTests>
+					<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">x
+				<value>{From/To}Linear:6.6:0.05:7{From/To}</value>
+				<dependentTests>
+					<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">Re
+				<value>80k</value>
+				<dependentTests>
+					<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">Vb
+				<value>1.2</value>
+				<dependentTests>
+					<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.46
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="1">C0
+						<models>
+							<model enabled="1">toplevel.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/tsmcN28_CLN28HPC/models/spectre/toplevel.scs</modelfile>
+								<modelsection>"top_tt"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<tests>
+					<test enabled="1">BG_circuit:band_gap:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BG_circuit:band_gap:1_state1_Interactive.46</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>state1</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">x
+						<value>{From/To}Linear:6:6:12{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Re
+						<value>80k</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vb
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sep 24 22:45:58 2026</timestamp>
+			<uuid>{f1352757-cdc0-434d-bf2a-e57a5d9e0c3f}</uuid>
+			<resultsname></resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.46.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/kabuto_kabuto_224558807</localpsfdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog></runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.46.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>x
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.47
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="1">C0
+						<models>
+							<model enabled="1">toplevel.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/tsmcN28_CLN28HPC/models/spectre/toplevel.scs</modelfile>
+								<modelsection>"top_tt"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<tests>
+					<test enabled="1">BG_circuit:band_gap:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BG_circuit:band_gap:1_state1_Interactive.47</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>state1</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">x
+						<value>{From/To}Linear:6:1:12{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Re
+						<value>80k</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vb
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sep 24 22:46:55 2026</timestamp>
+			<uuid>{f612dfb4-6059-496c-a8bf-692d6f7a2616}</uuid>
+			<resultsname></resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.47.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/kabuto_kabuto_224655841</localpsfdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog></runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.47.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>x
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.48
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="1">C0
+						<models>
+							<model enabled="1">toplevel.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/tsmcN28_CLN28HPC/models/spectre/toplevel.scs</modelfile>
+								<modelsection>"top_tt"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<tests>
+					<test enabled="1">BG_circuit:band_gap:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BG_circuit:band_gap:1_state1_Interactive.48</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>state1</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">x
+						<value>{From/To}Linear:6:1:12{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Re
+						<value>80k</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vb
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sep 24 22:48:39 2026</timestamp>
+			<uuid>{c87b14df-42bb-4991-845f-735b35389721}</uuid>
+			<resultsname></resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.48.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/kabuto_kabuto_224839685</localpsfdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog></runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.48.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>x
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.49
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="1">C0
+						<models>
+							<model enabled="1">toplevel.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/tsmcN28_CLN28HPC/models/spectre/toplevel.scs</modelfile>
+								<modelsection>"top_tt"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<tests>
+					<test enabled="1">BG_circuit:band_gap:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BG_circuit:band_gap:1_state1_Interactive.49</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>state1</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">x
+						<value>{From/To}Linear:7.1:0.01:7.2{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Re
+						<value>80k</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vb
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sep 24 22:49:19 2026</timestamp>
+			<uuid>{12ec7c1d-d2e1-4055-976e-bc6d2a952f6d}</uuid>
+			<resultsname></resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.49.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/kabuto_kabuto_224919252</localpsfdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog></runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.49.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>x
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.50
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="1">C0
+						<models>
+							<model enabled="1">toplevel.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/tsmcN28_CLN28HPC/models/spectre/toplevel.scs</modelfile>
+								<modelsection>"top_tt"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<tests>
+					<test enabled="1">BG_circuit:band_gap:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BG_circuit:band_gap:1_state1_Interactive.50</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>state1</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">x
+						<value>{From/To}Linear:7.1:0.01:7.2{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Re
+						<value>80k</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vb
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sep 24 22:52:06 2026</timestamp>
+			<uuid>{4652a99f-90f8-43a0-ae68-c9fa212392ac}</uuid>
+			<resultsname></resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.50.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/kabuto_kabuto_225206186</localpsfdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog></runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.50.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>x
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.51
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="1">C0
+						<models>
+							<model enabled="1">toplevel.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/tsmcN28_CLN28HPC/models/spectre/toplevel.scs</modelfile>
+								<modelsection>"top_tt"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<tests>
+					<test enabled="1">BG_circuit:band_gap:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BG_circuit:band_gap:1_state1_Interactive.51</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>state1</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">x
+						<value>{From/To}Linear:1:1:8{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Re
+						<value>80k</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vb
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sep 24 22:53:06 2026</timestamp>
+			<uuid>{eb22b076-312b-47db-9eb3-77ff7c8f151d}</uuid>
+			<resultsname></resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.51.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/kabuto_kabuto_225306734</localpsfdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog></runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.51.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>x
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.52
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="1">C0
+						<models>
+							<model enabled="1">toplevel.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/tsmcN28_CLN28HPC/models/spectre/toplevel.scs</modelfile>
+								<modelsection>"top_tt"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<tests>
+					<test enabled="1">BG_circuit:band_gap:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BG_circuit:band_gap:1_state1_Interactive.52</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>state1</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">x
+						<value>{From/To}Linear:1:1:8{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Re
+						<value>80k</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vb
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sep 24 22:54:49 2026</timestamp>
+			<uuid>{60861935-9e1f-4c3c-a7dd-3b41189bf47b}</uuid>
+			<resultsname></resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.52.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/kabuto_kabuto_225449767</localpsfdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog></runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.52.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>x
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.53
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="1">C0
+						<models>
+							<model enabled="1">toplevel.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/tsmcN28_CLN28HPC/models/spectre/toplevel.scs</modelfile>
+								<modelsection>"top_tt"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<tests>
+					<test enabled="1">BG_circuit:band_gap:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BG_circuit:band_gap:1_state1_Interactive.53</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>state1</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">x
+						<value>{From/To}Linear:6.5:0.1:6.9{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Re
+						<value>80k</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vb
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sep 24 22:56:46 2026</timestamp>
+			<uuid>{5f66f41e-5d71-4dcf-a3c2-0cd26d847b06}</uuid>
+			<resultsname></resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.53.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/kabuto_kabuto_225646557</localpsfdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog></runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.53.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>x
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.54
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="1">C0
+						<models>
+							<model enabled="1">toplevel.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/tsmcN28_CLN28HPC/models/spectre/toplevel.scs</modelfile>
+								<modelsection>"top_tt"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<tests>
+					<test enabled="1">BG_circuit:band_gap:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BG_circuit:band_gap:1_state1_Interactive.54</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>state1</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">x
+						<value>{From/To}Linear:1:1:9{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Re
+						<value>80k</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vb
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sep 24 22:57:53 2026</timestamp>
+			<uuid>{e6a84722-24a9-47e4-8945-65cd3bc8de30}</uuid>
+			<resultsname></resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.54.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/kabuto_kabuto_225753074</localpsfdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog></runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.54.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>x
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.55
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="1">C0
+						<models>
+							<model enabled="1">toplevel.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/tsmcN28_CLN28HPC/models/spectre/toplevel.scs</modelfile>
+								<modelsection>"top_tt"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<tests>
+					<test enabled="1">BG_circuit:band_gap:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BG_circuit:band_gap:1_state1_Interactive.55</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>band_gap</value>
+							</option>
+							<option>lib
+								<value>BG_circuit</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>state1</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">x
+						<value>{From/To}Linear:6.6:0.05:7{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Re
+						<value>80k</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vb
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">BG_circuit:band_gap:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sep 24 22:59:00 2026</timestamp>
+			<uuid>{264cfb0a-b1b8-442f-a098-10ba37d65f10}</uuid>
+			<resultsname></resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.55.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/kabuto_kabuto_225900065</localpsfdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog></runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.55.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>x
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>
