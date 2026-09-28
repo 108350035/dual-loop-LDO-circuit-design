@@ -9,11 +9,11 @@
 
 ### 架構
 
-![image] (https://github.com/108350035/dual-loop-LDO-circuit-design/blob/main/%E6%9E%B6%E6%A7%8B.png)
+![image](https://github.com/108350035/dual-loop-LDO-circuit-design/blob/main/%E6%9E%B6%E6%A7%8B.png)
 
 ### 電路圖
 
-![image] (https://github.com/108350035/dual-loop-LDO-circuit-design/blob/main/schematic.JPG)
+![image](https://github.com/108350035/dual-loop-LDO-circuit-design/blob/main/schematic.JPG)
 
 ### LDO PSR
 
