@@ -17,19 +17,19 @@
 
 ### LDO PSR
 
-![image] (https://github.com/108350035/dual-loop-LDO-circuit-design/blob/main/LDO_PSR.JPG)
+![image](https://github.com/108350035/dual-loop-LDO-circuit-design/blob/main/LDO_PSR.JPG)
 
 ### Bandgap PSR 
 
-![image] (https://github.com/108350035/dual-loop-LDO-circuit-design/blob/main/BG_PSR.JPG)
+![image](https://github.com/108350035/dual-loop-LDO-circuit-design/blob/main/BG_PSR.JPG)
 
 ### global loop
 
-![image] (https://github.com/108350035/dual-loop-LDO-circuit-design/blob/main/global.JPG)
+![image](https://github.com/108350035/dual-loop-LDO-circuit-design/blob/main/global.JPG)
 
 ### inner loop
 
-![image] (https://github.com/108350035/dual-loop-LDO-circuit-design/blob/main/inner.JPG)
+![image](https://github.com/108350035/dual-loop-LDO-circuit-design/blob/main/inner.JPG)
 
 
 
